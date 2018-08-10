@@ -5,7 +5,7 @@ public class Main {
     public static void main(String[] args) {
         int num;
         Scanner scanner= new Scanner(System.in);
-        System.out.println("Write number to check:");
+        System.out.println("Please write number to check:");
         num=scanner.nextInt();
         boolean isPrime=isPrime(num);
         if(isPrime==true){
